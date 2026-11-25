@@ -6,6 +6,7 @@ import streamlit as st
 from dotenv import load_dotenv
 from openai import OpenAI
 
+load_dotenv(".env.flashcard")
 load_dotenv()
 
 st.set_page_config(
